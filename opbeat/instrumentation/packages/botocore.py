@@ -27,5 +27,5 @@ class BotocoreInstrumentation(AbstractInstrumentedModule):
             'operation': operation_name,
         }
 
-        with trace(signature, 'ext.http.aws', extra_data):
+        with trace(signature, 'ext.http.aws', extra_data, leaf=True):
             return wrapped(*args, **kwargs)

@@ -14,6 +14,7 @@ _cls_register = set([
     'opbeat.instrumentation.packages.redis.RedisInstrumentation',
     'opbeat.instrumentation.packages.redis.RedisPipelineInstrumentation',
     'opbeat.instrumentation.packages.requests.RequestsInstrumentation',
+    'opbeat.instrumentation.packages.requests.PreparedRequestInstrumentation',
     'opbeat.instrumentation.packages.sqlite.SQLiteInstrumentation',
     'opbeat.instrumentation.packages.urllib3.Urllib3Instrumentation',
 
